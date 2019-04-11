@@ -12,7 +12,7 @@ LDFLAGS += -lxcb -lxcb-xinerama -lxcb-randr -lX11 -lX11-xcb -lXft -lfreetype -lz
 CFDEBUG = -g3 -pedantic -Wall -Wunused-parameter -Wlong-long \
           -Wsign-conversion -Wconversion -Wimplicit-function-declaration
 
-EXEC = lemonbar
+EXEC = bar
 SRCS = lemonbar.c
 OBJS = ${SRCS:.c=.o}
 
